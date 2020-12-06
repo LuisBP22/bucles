@@ -5,16 +5,12 @@ public class Ejercicio_1 {
 
     public static void main(String[] args) {
         int cont = 0;
-
-        while (cont <= 100) {
-            System.out.println(cont + " es múltiplo de 5");
-
-            cont += 5;
-        }
+int a=0;
+           do {
+               a+=5;
+               System.out.println(a);
+            } while (a<100);
     }
-
         }
-        
-    }
-}
+
 
