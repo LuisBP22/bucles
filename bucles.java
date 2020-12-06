@@ -2,9 +2,17 @@ package ap5_bucles;
 
 public class Ejercicio_1 {
 
+
     public static void main(String[] args) {
-        for (int i = 0; i <= 100; i+=5) {
-            System.out.println(i);
+        int cont = 0;
+
+        while (cont <= 100) {
+            System.out.println(cont + " es múltiplo de 5");
+
+            cont += 5;
+        }
+    }
+
         }
         
     }
