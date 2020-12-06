@@ -1,4 +1,4 @@
-package ap5_bucles;
+ipackage ap5_bucles;
 
 public class Ejercicio_1 {
 
@@ -12,8 +12,8 @@ int a=0;
             } while (a<100);
     }
         }
-if(a>6){
-System.out.println("Mayor que 5, incorrecto);
+if(a<0){
+System.out.println("Menor que 0, inexistente);
 }
 
 
